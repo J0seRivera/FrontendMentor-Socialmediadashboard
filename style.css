@@ -1,0 +1,119 @@
+body{
+  margin: 0px;
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(230, 17%, 14%);
+}
+.header{
+  background: hsl(232, 19%, 15%);
+  padding-bottom: 75px;
+  border-radius: 0 0 8px 8px;
+  padding-top: 25px;
+}
+.titulo{
+  margin: 0;
+}
+.header h4{
+  margin-top: 1px;
+}
+.cards{
+  margin-top: -75px;
+}
+.grid{
+  display: grid;
+  grid-row-gap: 30px;
+}
+
+.dashBoard{
+  margin: 20px;
+  color: hsl(228, 34%, 66%)
+}
+.titulo{
+color:hsl(0, 0%, 100%);
+}
+
+/* barra superior */
+.fb-card-top{
+  background-color: rgb(66, 109, 222);
+  padding: 2px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.tw-card-top{
+  background-color: hsl(203, 89%, 53%);
+  padding: 2px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.ig-card-top{
+  background: linear-gradient(0.25turn, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  padding: 2px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.yt-card-top{
+  background-color: hsl(348, 97%, 39%);
+  padding: 2px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.card{
+  position: relative;
+  float: left;
+  color: hsl(228, 34%, 66%);
+  text-align: center;
+  margin-left: 20px;
+  background-color:  hsl(228, 28%, 20%);
+  height: 250px;
+  width: 335px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.user{
+  margin-top: 30px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+.user img{
+  margin-right: 10px;
+}
+.followers{
+  font-size: 4em;
+  color: hsl(0, 0%, 100%);
+  
+}
+.tag{
+  font-size: .9em;
+  font-weight: 100;
+  display: block;
+  letter-spacing: 7px;
+}
+.counter{
+  font-size: .85em;
+  color:hsl(163, 72%, 41%);
+  margin-top: .8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter img{
+  margin-right: 6px;
+}
+.counter-red{
+  font-size: .85em;
+  color:rgb(203, 61, 90);
+  margin-top: .8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attribution {
+
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);  
+}
